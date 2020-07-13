@@ -59,13 +59,13 @@ class App extends React.Component {
           onChange={this.onBirthdayChange}
         />
         <label>Gender</label>
-        <label>Female</label>
+        <label>
+          Female
         <input 
         type="radio"
         name="female"
-        
-        >
-        </input>
+        />
+        </label>
           {/* <button 
           type="submit"
           onClick={this.handleFormSubmission}
