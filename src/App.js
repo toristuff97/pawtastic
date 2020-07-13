@@ -66,6 +66,13 @@ class App extends React.Component {
         name="female"
         />
         </label>
+        <label>
+          Male
+        <input 
+        type="radio"
+        name="male"
+        />
+        </label>
           {/* <button 
           type="submit"
           onClick={this.handleFormSubmission}
