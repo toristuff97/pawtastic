@@ -74,14 +74,6 @@ class App extends React.Component {
         name="male"
         />
         </label>
-          {/* <button 
-          type="submit"
-          onClick={this.handleFormSubmission}
-          >
-            Submit
-          </button>
-          {/* Goal: When form submissions is true, I would like to display a note AKA modal. */}
-          {/* {this.state.formCompleted === true ? (<h2>Please go to the login page now!</h2>) : null} */} 
       </form>
 
       </div>
