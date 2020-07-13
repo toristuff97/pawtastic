@@ -37,6 +37,7 @@ class App extends React.Component {
   render() {
     return (
       <div>
+      <h1>Yay, we love dogs! Give us the basics about your pup.</h1>
         <form className="pet-info">
         <label>Name</label>
         <input 
