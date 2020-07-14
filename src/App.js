@@ -59,6 +59,8 @@ class App extends React.Component {
           value={this.state.petBirthday}
           onChange={this.onBirthdayChange}
         />
+
+
         <label>Gender</label>
         <label>
           Female
@@ -72,6 +74,54 @@ class App extends React.Component {
         <input 
         type="radio"
         name="male"
+        />
+        </label>
+
+
+        <label>Spayed or Neutered</label>
+        <label>
+          Yes
+        <input 
+        type="radio"
+        name="yes"
+        />
+        </label>
+        <label>
+          No
+        <input 
+        type="radio"
+        name="no"
+        />
+        </label>
+
+
+        <label>Weight</label>
+        <label>
+          0-25 lbs
+        <input 
+        type="radio"
+        name="0-25"
+        />
+        </label>
+        <label>
+          25-50 lbs
+        <input 
+        type="radio"
+        name="25-50"
+        />
+        </label>
+        <label>
+          50-75 lbs
+        <input 
+        type="radio"
+        name="50-75"
+        />
+        </label>
+        <label>
+          100+ lbs
+        <input 
+        type="radio"
+        name="100plus"
         />
         </label>
       </form>
