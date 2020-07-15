@@ -15,23 +15,28 @@ class App extends React.Component {
     };
   }
 
-  onNameChange = (event) => {
-    this.setState({
-      petName: event.target.value
-    })
+  handleChanges = (e) => {
+    let val = e.target.value;
+    this.setState({val})
   }
 
-  onBreedChange = (event) => {
-    this.setState({
-      petBreed: event.target.value
-    })
-  }
+  // onNameChange = (event) => {
+  //   this.setState({
+  //     petName: event.target.value
+  //   })
+  // }
 
-  onBirthdayChange = (event) => {
-    this.setState({
-      petBirthday: event.target.value
-    })
-  }
+  // onBreedChange = (event) => {
+  //   this.setState({
+  //     petBreed: event.target.value
+  //   })
+  // }
+
+  // onBirthdayChange = (event) => {
+  //   this.setState({
+  //     petBirthday: event.target.value
+  //   })
+  // }
 
 
   render() {
@@ -44,20 +49,20 @@ class App extends React.Component {
           type="name"
           placeholder="Pet's name"
           value={this.state.petName}
-          onChange={this.onNameChange}
+          onChange={this.handleChanges}
         />
         <label>Breed</label>
         <input 
           placeholder="Pet's breed"
           value={this.state.petBreed}
-          onChange={this.onBreedChange}
+          onChange={this.handleChanges}
         />
         <label>Birthday</label>
         <input 
         type="date"
           placeholder="MM/DD/YYYY"
           value={this.state.petBirthday}
-          onChange={this.onBirthdayChange}
+          onChange={this.handleChanges}
         />
 
 
