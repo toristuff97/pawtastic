@@ -2,6 +2,40 @@
   text-align: center;
 }
 
+.Background {
+  display: flex;
+  flex-direction: row;
+}
+
+.infoForm {
+  background-color: #F9ECEB;
+  border: #F9ECEB solid;
+  height: 80vh;
+  width: 50vw;
+  margin-block-start: 10vw;
+  
+}
+
+a {
+  color: #9596A8;
+  text-decoration: underline;
+}
+ 
+p {
+  color: #9596A8;
+  font-family: 'Avenir';
+}
+
+.progressArea {
+  background-color: #555673;
+  border: #555673;
+  height: 80.7vh;
+  margin-block-start: 10vw;
+  margin-inline-start: 10vw;
+  width: 20vw;
+  padding-left: 5vw;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -28,10 +62,67 @@
   color: #61dafb;
 }
 
+.bckgrd {
+  background-color: #84879E;
+  height: 100vw;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+.navBar {
+  background-color: #FFFFFF;
+  height: 105px;
+  width: 50vw;
+}
+
+.back {
+  margin-right: 240px;
+  margin-left: 30px;
+  height: 45px;
+  width: 145px;
+  background-color: #FFFFFF;
+  border: #84879E solid 2px;
+  font-family: 'Avenir';
+  font-size: 20;
+}
+.next {
+  margin-left: 120px;
+  height: 45px;
+  width: 145px;
+  background-color: #555673;
+  border: solid #555673;
+  font-family: 'Avenir';
+  font-size: 20;
+}
+
+.Navigate {
+  display: flex;
+  display: inline;
+}
+
 h1 {
   font-family: 'Superclarendon';
   font-size: 45;
   font-weight: bold;
+  color: #555673;
+  text-align: center;
+}
+.current {
+  font-weight: bolder;
+}
+
+h2 {
+  color: #FFFFFF;
+  font-family: 'Avenir'
+}
+
+label {
+  color: #84879E;
+  font-family: 'Avenir';
+}
+
+placeholder {
+  color: #F0CFCD;
 }
 
 @keyframes App-logo-spin {
